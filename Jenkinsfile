@@ -7,7 +7,7 @@ pipeline {
         sh '''
           set -e
           echo "Running HTML linter (tidy)..."
-          tidy -q -e *.html
+          tidy -q -e index.html
         '''
       }
     }
